@@ -12,10 +12,10 @@ nav {
 
 
 .navigation-menu {
+    display: inline-block;
     padding: 78px;
     font-family: 'Playfair Display', serif;
     font-size: 14px;
-    text-decoration: none;
     margin-bottom: 26px;
 }
 
@@ -25,14 +25,14 @@ nav {
     text-decoration: none;
 }
 
+.navigation-menu li {
+    display: inline-block;
+}
 
 .navigation-menu a:hover{
     color: #03a9f4;
 }
 
-.navigation-menu li {
-    display: inline-block;
-}
 
 
 .navigation-menu li:not(:last-child) {
@@ -41,48 +41,8 @@ nav {
 
 menu {
     width: 901px;
-    height: 1704;
     margin: auto;
 }
-
-
-/* .box1 {
-    margin-right: 53px;
-    width: 422px;
-    display: inline-block;
-}
-
-
-.box2 {
-    width: 422px;
-    display: inline-block;
-}
-
-
-.box3 {
-    margin-right: 53px;
-    width: 422px;
-    display: inline-block;
-}
-
-
-.box4 {
-    width: 422px;
-    display: inline-block;
-}
-
-
-.box5 {
-    margin-right: 53px;
-    width: 422px;
-    display: inline-block;
-}
-
-
-.box6 {
-    width: 422px;
-    display: inline-block;
-} */
 
 
 .list-item {
@@ -91,6 +51,50 @@ menu {
     display: inline-block;
 }
 
+
 .list-item:nth-child(2n) {
     margin: 0;
+}
+
+.link {
+    font-size: 14px;
+    color: rgba(180, 173, 158, 255);
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 27px;
+}
+
+.text {
+    font-family: 'Playfair Display', serif;
+    color: rgba(98, 98, 98, 255);
+    margin-bottom: 133px;
+}
+
+
+.text2 {
+    margin-bottom: 0;
+}
+
+.headline {
+    font-size: 30px;
+    color: rgba(98, 98, 98, 255);
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 36px;
+}
+
+li> img {
+    margin-bottom: 28px;
+}
+
+
+footer {
+    padding: 55px;
+    text-align: center;
+}
+
+.load {
+    color: rgba(98, 98, 98, 255);
+    font-family: 'Playfair Display', serif;
+    width: 162px;
+    height: 65px;
+    background: transparent;
 }
