@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    outline: 1px solid green;
+    box-sizing: border-box;
+    /* outline: 1px solid green; */
 }
 
 
@@ -40,5 +41,56 @@ nav {
 
 menu {
     width: 901px;
+    height: 1704;
     margin: auto;
+}
+
+
+/* .box1 {
+    margin-right: 53px;
+    width: 422px;
+    display: inline-block;
+}
+
+
+.box2 {
+    width: 422px;
+    display: inline-block;
+}
+
+
+.box3 {
+    margin-right: 53px;
+    width: 422px;
+    display: inline-block;
+}
+
+
+.box4 {
+    width: 422px;
+    display: inline-block;
+}
+
+
+.box5 {
+    margin-right: 53px;
+    width: 422px;
+    display: inline-block;
+}
+
+
+.box6 {
+    width: 422px;
+    display: inline-block;
+} */
+
+
+.list-item {
+    margin-right: 53px;
+    width: 422px;
+    display: inline-block;
+}
+
+.list-item:nth-child(2n) {
+    margin: 0;
 }
