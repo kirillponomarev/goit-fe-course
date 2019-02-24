@@ -19,24 +19,26 @@ nav {
 }
 
 
-.navigation-menu a {
-    color: rgba(98, 98, 98, 255);
-    text-decoration: none;
-}
-
 .navigation-menu li {
     display: inline-block;
 }
-
-.navigation-menu a:hover{
-    color: #03a9f4;
-}
-
 
 
 .navigation-menu li:not(:last-child) {
     margin-right: 120px;
 }
+
+
+.navigation-menu a {
+    color: rgba(98, 98, 98, 255);
+    text-decoration: none;
+}
+
+
+.navigation-menu a:hover{
+    color: #03a9f4;
+}
+
 
 menu {
     width: 901px;
@@ -94,6 +96,7 @@ footer {
 .load {
     color: rgba(98, 98, 98, 255);
     font-family: 'Playfair Display', serif;
+    font-size: 20px;
     width: 162px;
     height: 65px;
     background: transparent;
