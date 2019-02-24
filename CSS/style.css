@@ -12,7 +12,6 @@ nav {
 
 
 .navigation-menu {
-    display: inline-block;
     padding: 78px;
     font-family: 'Playfair Display', serif;
     font-size: 14px;
@@ -79,6 +78,7 @@ menu {
     color: rgba(98, 98, 98, 255);
     font-family: 'Playfair Display', serif;
     margin-bottom: 36px;
+    font-weight: 400;
 }
 
 li> img {
