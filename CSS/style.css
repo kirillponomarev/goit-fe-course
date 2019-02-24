@@ -64,7 +64,8 @@ menu {
     margin-bottom: 27px;
 }
 
-.text {
+.text, .text2 {
+    text-align: justify;
     font-family: 'Playfair Display', serif;
     color: rgba(98, 98, 98, 255);
     margin-bottom: 133px;
